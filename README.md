@@ -22,7 +22,7 @@ This screenshot shows the Postman Collection Runner executing all tests successf
 
 ### 2. Intentional Failure & Defect Detection
 Demonstrating how the automated suite catches discrepancies when the expected response does not match the actual server output.
-![Failure Test](Screenshot/faliure_detection_test.png)
+![Failure Test](Screenshot/failure_detection_test.png)
 
 ### 3. POST Request Setup & Validation
 A deep dive into the POST method, showing the JSON body and the scripts used to validate a 201 Created status.
