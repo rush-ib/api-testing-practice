@@ -17,13 +17,13 @@ Simple API testing project using Express.js and Postman.
 ## Screenshots
 
 ### GET API Tests
-![GET Tests](screenshots/get-users-tests.png)
+![GET Tests](Screenshot/get-users-tests.png)
 
 ### Negative Testing
-![404 Test](screenshots/negative-test-404.png)
+![404 Test](Screenshot/negative-test-404.png)
 
 ### POST API Success
-![POST Success](screenshots/post-user-success.png)
+![POST Success](Screenshot/post-user-success.png)
 
 ### POST API Tests
-![POST Tests](screenshots/post-user-tests.png)
+![POST Tests](Screenshot/post-user-tests.png)
