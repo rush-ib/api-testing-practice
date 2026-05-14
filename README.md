@@ -3,27 +3,39 @@
 Simple API testing project using Express.js and Postman.
 
 ## Features
-- GET /users
-- GET /users/:id
-- POST /users
-- Automated Postman tests
-- Negative testing
+- **GET /users**: Retrieve all users.
+- **GET /users/:id**: Error handling for invalid user IDs.
+- **POST /users**: Create new users with validation.
+- **Automated Regression Suite**: 10+ automated assertions.
+- **Negative Testing**: Validation for missing fields and 400/404 error codes.
 
 ## Tech Stack
 - Node.js
 - Express.js
-- Postman
+- Postman (Collection Runner)
 
 ## Screenshots
 
-### GET API Tests
-![GET Tests](Screenshot/get-users-tests.png)
+### 1. Automated Regression Suite (10/10 Passed)
+This screenshot shows the Postman Collection Runner executing all tests successfully, proving the API's reliability.
+![Regression Suite](screenshots/regression_test_results.png)
 
-### Negative Testing
-![404 Test](Screenshot/negative-test-404.png)
+### 2. Intentional Failure & Defect Detection
+Demonstrating how the automated suite catches discrepancies when the expected response does not match the actual server output.
+![Failure Test](screenshots/faliure_detection_test.png)
 
-### POST API Success
-![POST Success](Screenshot/post-user-success.png)
+### 3. POST Request Setup & Validation
+A deep dive into the POST method, showing the JSON body and the scripts used to validate a 201 Created status.
+![POST Setup](screenshots/post_request_setup.png)
 
-### POST API Tests
-![POST Tests](Screenshot/post-user-tests.png)
+### GET API Tests !
+[GET Tests](Screenshot/get-users-tests.png)
+
+ ### Negative Testing !
+ [404 Test](Screenshot/negative-test-404.png) 
+ 
+ ### POST API Success !
+ [POST Success](Screenshot/post-user-success.png) 
+ 
+ ### POST API Tests !
+ [POST Tests](Screenshot/post-user-tests.png)
